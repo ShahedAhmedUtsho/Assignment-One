@@ -99,7 +99,7 @@ main .welcome-section{
     margin: 100px auto 0;
     border: 1px solid red;
     border-radius: 16px;
-    background-image: url(Images/Vectorrr.png);
+    background-image: url(./Images/Vectorrr.png);
     background-position: center;
     background-size: cover;
 }
