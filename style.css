@@ -18,7 +18,7 @@ body{
 }
 /*🛑 Header section 🛑*/
 header{
-    background-image: url(Images/figma-export-images/bannar.jpg);
+    background-image: url(./Images/figma-export-images/bannar.jpg);
     background-position: 0 -160px;
    /* background-image: url(Images/Banner\ Image.png);
     background-position: center;
@@ -31,7 +31,7 @@ header{
     z-index: 10;
 }
 header .header-container{
-    background-image: url(Images/figma-export-images/Rectangle\ 15.png);
+    background-image: url(./Images/figma-export-images/Rectangle\ 15.png);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
@@ -107,7 +107,7 @@ main .welcome-section{
     max-width: 1320px;
     height: 600px;
     border-radius: 16px;
-    background-image: url(Images/figma-export-images/welcome.png);
+    background-image: url(./Images/figma-export-images/welcome.png);
     background-position: center;
     background-size: cover;
     padding: 80px 100px;
