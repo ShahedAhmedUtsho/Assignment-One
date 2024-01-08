@@ -11,6 +11,33 @@
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
+/* creating some simple biggener animation for Expecting Bonus point */
+
+@keyframes rounding {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes beat{
+    
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    
+    100%{
+        transform: scale(0.9);
+    }
+}
+
+
+
+
 body{
     padding: 40px 0px 0 0px;
    /* background-color: #0E1117; */
@@ -69,11 +96,13 @@ main{
 }
 .card h4{
     color: #ff0808fa;
+    /* creating  simple biggener text shadow for Expecting Bonus point */
     text-shadow: 0px 5px 5px rgb(46, 57, 61);
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
+    
 }
 .card h6{
     color: #ff0808b7;
@@ -164,7 +193,7 @@ main .welcome-section{
     cursor: pointer;
 }
 
-
+/* creating  simple biggener hover for Expecting Bonus point */
 .welcome-info button:hover{
     -webkit-transition: all 0.15s linear;
     transition: all 0.15s linear;
@@ -306,6 +335,7 @@ text-transform: capitalize;
     font-family: 'Inter', sans-serif;
 font-size: 24px;
 font-weight: 500;
+text-shadow: 5px 5px 8px #00000062;
 
 }
 .global-heading{
@@ -314,6 +344,7 @@ font-family: 'Merriweather', serif;
 font-size: 48px;
 font-weight: 900;
 text-transform: capitalize;
+text-shadow: 5px 5px 8px #00000062;
 }
 .global-normal-p{
     color: rgba(7, 2, 17, 0.60);
@@ -338,7 +369,7 @@ line-height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    box-shadow: #0000004d 0px 15px 25px, #00000038 0px 15px 10px;
     -webkit-transition: all 0.25s linear;
     transition: all 0.25s linear;
 
@@ -351,11 +382,13 @@ line-height: 32px;
 .img-circle img{
     -webkit-transition: all 0.25s linear;
     transition: all 0.25s linear;
+    animation: beat 2s ease-in-out infinite alternate ;
 
 }
 
 .img-circle:hover img{
     transform: scale(1.1);
+
     
 }
 
@@ -377,6 +410,7 @@ margin-bottom: 20px;
     font-family: 'Inter', sans-serif;
 font-size: 48px;
 font-weight: 700;
+text-shadow: 0px 5px 5px #0000009d;
 }
 
 
@@ -417,9 +451,11 @@ font-size: 72px;
 font-weight: 900;
 text-align: center;
 margin-bottom: 22px;
+text-shadow: 5px 6px 5px #00000062;
 }
 .holiday-section span{
     color: #ff0808fa;
+    text-shadow: 5px 6px 5px #00000062;
 }
 .holiday-section p{
     text-align: center;
@@ -454,8 +490,8 @@ margin-bottom: 22px;
     width: 550px;
     left: 130px;
     bottom: 100px;
+   
     
-
 
 }
 
@@ -464,6 +500,8 @@ margin-bottom: 22px;
     position: absolute;
     right: 275px;
     bottom: 300px;
+    animation: rounding 6s linear infinite ;
+    
    
 }
 
