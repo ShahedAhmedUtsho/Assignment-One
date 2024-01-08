@@ -502,8 +502,15 @@ margin-bottom: 22px;
 .portfolio-flex-container .img img{
     width: 100%;
     height: 100%;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+    border-radius: 16px;
 }
-
+.portfolio-flex-container .img img:hover{
+    transform: scale(1.05);
+    filter: contrast(120%);
+    box-shadow: #00000029 0px 1px 4px,#333333 0px 0px 0px 3px;
+}
 
 
 
@@ -574,6 +581,8 @@ align-items: center;
     border-radius: 0 50px  50px 0;
     border: none;
     background-color: #ff0808fa;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
 
 
 
