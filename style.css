@@ -12,7 +12,7 @@
     font-family: 'Merriweather', serif;
 }
 body{
-    padding: 40px 20px;
+    padding: 40px 0px 0 0px;
    /* background-color: #0E1117; */
 }
 /*🛑 Header section 🛑*/
@@ -604,4 +604,94 @@ font-weight: 400;
 }
 .subscribe-flex-container label input[type=email]:focus{
     border:1px solid #ff0808fa ;
+}
+
+
+
+
+
+/*🛑 footer section 🛑*/
+
+footer{
+    width: 100vw;
+    height: 600px;
+   margin: 0 auto 0 auto;
+   box-sizing: border-box;
+    background-color: #070211;
+}
+.footer-container{
+    height: 600px;
+    max-width:1320px;
+    margin: 0 auto;
+    padding: 100px 0;
+   
+}
+footer h4{
+    display: inline-block;
+    max-width: 380px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+
+.address{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+
+    min-height: 133px;
+    display: flex;
+}
+
+
+
+.social-icon{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    min-height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social-icon img{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.copy-right{
+    /* border: 1px solid rgb(8, 94, 255); */
+    min-height: 133px;
+    padding-top: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+.address-info{
+   
+    min-height: 133px;
+   width: 70%;
+
+}
+.icon-flex{
+    
+    min-height: 133px;
+    width: 30%;
+}
+i{
+   
+   
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+i+h4{
+    padding-left: 15px;
 }
