@@ -529,7 +529,7 @@ main .welcome-section{
     font-weight: 400;
 }
 .subscribe-flex-container label input[type=email]:focus{
-    border:1px solid #ff0808fa ;
+    outline:1px solid #000000b8 ;
 }
 /*🛑 footer section 🛑*/
 footer{
