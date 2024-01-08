@@ -482,8 +482,7 @@ margin-bottom: 22px;
 .protfolio-info p{
     max-width: 890px;
 }
-.protfolio-info{
-}
+
 .portfolio-flex-container{
     position: relative;
     width: 100%;
@@ -502,4 +501,107 @@ margin-bottom: 22px;
 .portfolio-flex-container .img img{
     width: 100%;
     height: 100%;
+}
+
+
+
+
+
+
+/*🛑Subscribe section 🛑*/
+
+.Subscribe-section{
+    max-width: 1320px;
+    margin: 100px auto;
+   padding: 80px;
+    height: 600px;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+
+
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+
+
+}
+.Subscribe-section *{
+    margin-bottom: 30px;
+}
+.Subscribe-section img{
+  
+    width: 140px;
+    
+}
+.Subscribe-section p{
+    text-align: center;
+    max-width: 890px;
+
+}
+
+.subscribe-flex-container{
+    width: 650px;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.subscribe-flex-container label{
+    width: 70%;
+    
+    height: 100%;
+
+}
+.subscribe-flex-container label input[type=email]{
+    background-color: #fff;
+    width: 100%;
+   border: none;
+    height: 100%;
+   border-radius: 50px 0 0 50px;
+   font-size: 24px;
+   font-weight: 400;
+   font-family: Inter;
+   padding: 10px 10px 10px 40px;
+
+}
+.subscribe-flex-container button{
+    width: 30%;
+    height: 100%;
+    border-radius: 0 50px  50px 0;
+    border: none;
+    background-color: #ff0808fa;
+
+
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    
+    text-transform: capitalize;
+
+
+
+}
+.subscribe-flex-container button:hover{
+    background-color: #e50808;
+
+}
+
+
+.subscribe-flex-container label input[type=email]::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+text-align: left;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+    
+
+}
+.subscribe-flex-container label input[type=email]:focus{
+    border:1px solid #ff0808fa ;
 }
